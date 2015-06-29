@@ -1,0 +1,44 @@
+import: javax.servlet.http.*; 
+if(request.getParameter("username"): != null) 
+hayError: true; 
+MIDlet-Jar-Size:  
+//: Source File Name:   ident.java 
+MIDlet-Name:  
+MicroEdition-Configuration:  
+MIDlet-Jar-URL: ident.jar 
+public: String getServletInfo() 
+Connection: conn; 
+catch(SQLException: sqlEx) 
+catch(ClassNotFoundException: ex) 
+HttpSession: miSesion = request.getSession(); 
+miSesion.setAttribute("Cedula",: username); 
+System.out.println("Error: cerrando el statement"); 
+throws: ServletException, IOException 
+protected: void doPost(HttpServletRequest request, HttpServletResponse response) 
+System.out.println("Cerrando: Conexi\363n..."); 
+if(ref: != null || ref != "null") 
+response.sendRedirect(response.encodeRedirectURL("../": + ref)); 
+if(request.getParameter("password"): != null) 
+MicroEdition-Profile:  
+System.out.println("No: se pudo cerrar la conexion"); 
+MIDlet-Vendor:  
+rs: stmt.executeQuery(tSQL); 
+password: request.getParameter("password"); 
+username: request.getParameter("username"); 
+private: String tipoest; 
+System.out.println("Servlet: iniciado correctamente..."); 
+conn: DriverManager.getConnection(url, "webuser", "eg3wy6oh"); 
+String: tSQL = null; 
+ref: request.getParameter("url"); 
+tSQL: "select * from datos_basicos where cedula='" + username + "' and numfic='" + password + "'"; 
+ResultSet: rs = null; 
+miSesion.setAttribute("Periodo",: rs.getString("periodo_semestre")); 
+Statement: stmt = null; 
+MIDlet-Version:  
+return: "Identificacion de Usuarios WEB"; 
+if(stmt: != null) 
+tipoest: request.getParameter("tipoest"); 
+miSesion.setAttribute("TipoEst",: tipoest); 
+System.out.println("Se: ha producido un error al intentar establecer la conex"); 
+stmt: conn.createStatement(); 
+boolean: hayRegistro = rs.next(); 

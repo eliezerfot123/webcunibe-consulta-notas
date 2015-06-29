@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AppContent version="1.1">
+  <FileSystem />
+  <Filter common="Default" />
+  <Jar />
+  <Descriptor descriptorType="jad" />
+  <Content>
+    <Param name="miSesion.setAttribute(&quot;Cedula&quot;," value="username);" jad="true" manifest="false" required="false" user="true" />
+    <Param name="MIDlet-Info-URL" value="" jad="true" manifest="true" required="false" user="false" />
+    <Param name="response.sendRedirect(response.encodeRedirectURL(&quot;../login.jsp&quot;));" value="" jad="true" manifest="false" required="false" user="true" />
+    <Param name="response.sendError(500);" value="" jad="true" manifest="false" required="false" user="true" />
+    <Param name="if(hayRegistro)" value="" jad="true" manifest="false" required="false" user="true" />
+    <Param name="MIDlet-Name" value="" jad="true" manifest="true" required="true" user="false" />
+    <Param name="System.out.println(sqlEx.getMessage());" value="" jad="true" manifest="false" required="false" user="true" />
+    <Param name="{" value="" jad="true" manifest="false" required="false" user="true" />
+    <Param name="Statement" value="stmt = null;" jad="true" manifest="false" required="false" user="true" />
+    <Param name="MIDlet-Delete-Confirm" value="" jad="true" manifest="true" required="false" user="false" />
+    <Param name="boolean" value="hayRegistro = rs.next();" jad="true" manifest="false" required="false" user="true" />
+    <Param name="miSesion.setAttribute(&quot;TipoEst&quot;," value="tipoest);" jad="true" manifest="false" required="false" user="true" />
+    <Param name="if(request.getParameter(&quot;password&quot;)" value="!= null)" jad="true" manifest="false" required="false" user="true" />
+    <Param name="Connection" value="conn;" jad="true" manifest="false" required="false" user="true" />
+    <Param name="tSQL" value="&quot;select * from datos_basicos where cedula=&apos;&quot; + username + &quot;&apos; and numfic=&apos;&quot; + password + &quot;&apos;&quot;;" jad="true" manifest="false" required="false" user="true" />
+    <Param name="throws" value="ServletException, IOException" jad="true" manifest="false" required="false" user="true" />
+    <Param name="Class.forName(&quot;com.informix.jdbc.IfxDriver&quot;);" value="" jad="true" manifest="false" required="false" user="true" />
+    <Param name="System.out.println(&quot;Error&quot;);" value="" jad="true" manifest="false" required="false" user="true" />
+    <Param name="MIDlet-Data-Size" value="" jad="true" manifest="true" required="false" user="false" />
+    <Param name="System.out.println(&quot;Cerrando" value="Conexi\363n...&quot;);" jad="true" manifest="false" required="false" user="true" />
+    <Param name="MIDlet-Jar-Size" value="" jad="true" manifest="false" required="true" user="false" />
+    <Param name="System.out.println(&quot;Error" value="cerrando el statement&quot;);" jad="true" manifest="false" required="false" user="true" />
+    <Param name="MicroEdition-Profile" value="" jad="true" manifest="true" required="true" user="false" />
+    <Param name="miSesion.setAttribute(&quot;Periodo&quot;," value="rs.getString(&quot;periodo_semestre&quot;));" jad="true" manifest="false" required="false" user="true" />
+    <Param name="MIDlet-Description" value="" jad="true" manifest="true" required="false" user="false" />
+    <Param name="if(stmt" value="!= null)" jad="true" manifest="false" required="false" user="true" />
+    <Param name="MIDlet-Vendor" value="" jad="true" manifest="true" required="true" user="false" />
+    <Param name="else" value="" jad="true" manifest="false" required="false" user="true" />
+    <Param name="if(request.getParameter(&quot;username&quot;)" value="!= null)" jad="true" manifest="false" required="false" user="true" />
+    <Param name="System.out.println(&quot;Se" value="ha producido un error al intentar establecer la conex&quot;);" jad="true" manifest="false" required="false" user="true" />
+    <Param name="return" value="&quot;Identificacion de Usuarios WEB&quot;;" jad="true" manifest="false" required="false" user="true" />
+    <Param name="MIDlet-Version" value="" jad="true" manifest="true" required="true" user="false" />
+    <Param name="System.out.println(&quot;No" value="se pudo cerrar la conexion&quot;);" jad="true" manifest="false" required="false" user="true" />
+    <Param name="protected" value="void doPost(HttpServletRequest request, HttpServletResponse response)" jad="true" manifest="false" required="false" user="true" />
+    <Param name="HttpSession" value="miSesion = request.getSession();" jad="true" manifest="false" required="false" user="true" />
+    <Param name="private" value="String tipoest;" jad="true" manifest="false" required="false" user="true" />
+    <Param name="rs" value="stmt.executeQuery(tSQL);" jad="true" manifest="false" required="false" user="true" />
+    <Param name="response.sendRedirect(response.encodeRedirectURL(&quot;../datper.jsp&quot;));" value="" jad="true" manifest="false" required="false" user="true" />
+    <Param name="hayError" value="true;" jad="true" manifest="false" required="false" user="true" />
+    <Param name="MIDlet-Icon" value="" jad="true" manifest="true" required="false" user="false" />
+    <Param name="//" value="Source File Name:   ident.java" jad="true" manifest="false" required="false" user="true" />
+    <Param name="import" value="javax.servlet.http.*;" jad="true" manifest="false" required="false" user="true" />
+    <Param name="conn.close();" value="" jad="true" manifest="false" required="false" user="true" />
+    <Param name="public" value="String getServletInfo()" jad="true" manifest="false" required="false" user="true" />
+    <Param name="MIDlet-Install-Notify" value="" jad="true" manifest="true" required="false" user="false" />
+    <Param name="finally" value="" jad="true" manifest="false" required="false" user="true" />
+    <Param name="super.init(config);" value="" jad="true" manifest="false" required="false" user="true" />
+    <Param name="catch(SQLException" value="sqlEx)" jad="true" manifest="false" required="false" user="true" />
+    <Param name="username" value="request.getParameter(&quot;username&quot;);" jad="true" manifest="false" required="false" user="true" />
+    <Param name="try" value="" jad="true" manifest="false" required="false" user="true" />
+    <Param name="}" value="" jad="true" manifest="false" required="false" user="true" />
+    <Param name="conn" value="DriverManager.getConnection(url, &quot;webuser&quot;, &quot;eg3wy6oh&quot;);" jad="true" manifest="false" required="false" user="true" />
+    <Param name="password" value="request.getParameter(&quot;password&quot;);" jad="true" manifest="false" required="false" user="true" />
+    <Param name="String" value="tSQL = null;" jad="true" manifest="false" required="false" user="true" />
+    <Param name="MicroEdition-Configuration" value="" jad="true" manifest="true" required="true" user="false" />
+    <Param name="MIDlet-Jar-URL" value="ident.jar" jad="true" manifest="false" required="true" user="false" />
+    <Param name="stmt" value="conn.createStatement();" jad="true" manifest="false" required="false" user="true" />
+    <Param name="catch(ClassNotFoundException" value="ex)" jad="true" manifest="false" required="false" user="true" />
+    <Param name="System.out.println(ex.getMessage());" value="" jad="true" manifest="false" required="false" user="true" />
+    <Param name="tipoest" value="request.getParameter(&quot;tipoest&quot;);" jad="true" manifest="false" required="false" user="true" />
+    <Param name="System.out.println(&quot;Servlet" value="iniciado correctamente...&quot;);" jad="true" manifest="false" required="false" user="true" />
+    <Param name="response.sendRedirect(response.encodeRedirectURL(&quot;../&quot;" value="+ ref));" jad="true" manifest="false" required="false" user="true" />
+    <Param name="if(ref" value="!= null || ref != &quot;null&quot;)" jad="true" manifest="false" required="false" user="true" />
+    <Param name="ref" value="request.getParameter(&quot;url&quot;);" jad="true" manifest="false" required="false" user="true" />
+    <Param name="stmt.close();" value="" jad="true" manifest="false" required="false" user="true" />
+    <Param name="if(!hayError)" value="" jad="true" manifest="false" required="false" user="true" />
+    <Param name="ResultSet" value="rs = null;" jad="true" manifest="false" required="false" user="true" />
+  </Content>
+  <Obfuscator obfuscated="false" />
+</AppContent>
+

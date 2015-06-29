@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  <description>Aplicacion de Prueba</description>
+  <context-param>
+    <param-name>ifxDriver</param-name>
+    <param-value>com.informix.jdbc.IfxDriver</param-value>
+  </context-param>      
+  <!--<context-param>
+    <param-name>url</param-name>
+    <param-value>jdbc:informix-sqli://IP:PUERTO/BASE_DE_DATOS:informixserver=online_tcp</param-value>
+  </context-param>-->
+  <context-param>
+    <param-name>dbUserId</param-name>
+    <param-value>USUARIO</param-value>
+  </context-param>
+  <context-param>
+    <param-name>dbPassword</param-name>
+    <param-value>CONTRASENA</param-value>
+  </context-param>
+  <!--<servlet>
+    <servlet-name>ident</servlet-name>
+    <description>Servlet para identificacion de usuarios</description>
+    <servlet-class>ident</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ident</servlet-name>
+    <url-pattern>/servlet/ident</url-pattern>
+  </servlet-mapping>-->
+  <taglib>
+    <taglib-uri>/dbtags</taglib-uri>
+    <taglib-location>/WEB-INF/lib/dbtags.jar</taglib-location>
+  </taglib>
+</web-app>
